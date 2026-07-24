@@ -1,7 +1,26 @@
 aid: boomtrain
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boomtrain.png
 name: BoomTrain
-description: BoomTrain is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BoomTrain was a machine-learning marketing technology startup that used AI to
+  power personalized, cross-channel messaging (email, web, and push notifications) for brands,
+  predicting individual content and send-time recommendations for each consumer. Backed by
+  500 Global (formerly 500 Startups) among others, BoomTrain raised roughly $15M before being
+  acquired by Zeta Global in July 2017 (reportedly $35-40M), which folded its machine-learning,
+  decisioning, and personalization technology into the Zeta Marketing Platform. The boomtrain.com
+  domain now redirects to Zeta Global; there is no standalone BoomTrain developer portal, public
+  API, or documentation surface. This profile is retained as a historical company record in the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/boomtrain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketing
+- Personalization
+- Machine Learning
+- Artificial Intelligence
+- Email
+- Customer Engagement
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/boomtrain-domain-security.yml
 - type: Website
   url: https://boomtrain.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
