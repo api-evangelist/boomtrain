@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://boomtrain.com', status: 308, note: 'declared website redirects to https://www.zetaglobal.com/athena/ — a different registrable domain (boomtrain.com -> zetaglobal.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boomtrain.png
 name: BoomTrain
 description: BoomTrain was a machine-learning marketing technology startup that used AI to
