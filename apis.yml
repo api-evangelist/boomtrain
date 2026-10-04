@@ -48,7 +48,7 @@ tags:
 - Company
 - Marketing
 - Personalization
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Email
 - Customer Engagement
@@ -62,6 +62,7 @@ tags_raw:
 - Email
 - Customer Engagement
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
